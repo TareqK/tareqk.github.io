@@ -4,7 +4,7 @@
 title: Tareq's Homepage
 
 # Short description of your site
-description: I am the one the only one to do stuff
+description: Where the fun begins!
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -73,7 +73,7 @@ social-network-links:
   github: tareqK
 #  twitter: daattali
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: tareq-kirresh-ab4298159
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -87,9 +87,9 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: false
-  facebook: false
-  linkedin: false
+  twitter: true
+  facebook: true
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -156,7 +156,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Jerusalem"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
