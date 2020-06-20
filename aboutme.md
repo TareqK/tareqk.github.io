@@ -3,6 +3,7 @@ layout: page
 title: About me
 subtitle: The Fun and the Real
 ---
+![portrait](./img/portrait.jpeg){: .mx-auto.d-block :}
 My Name is Tareq Kirresh. Im a simple man trying to find my way in the universe.
 I've always been a craftsman at heart. Im very passionate about technology, 
 and am especially interested in the fields of Logistics, Emergency Services,
