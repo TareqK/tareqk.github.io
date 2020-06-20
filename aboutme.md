@@ -7,7 +7,7 @@ My Name is Tareq Kirresh. Im a simple man trying to find my way in the universe.
 I've always been a craftsman at heart. Im very passionate about technology, 
 and am especially interested in the fields of Logistics, Emergency Services,
 and Automation - passions that were imprinted in me from family business and
-hme life. Currently, I am a Software Engineer by trade, and I am working on 
+home life. Currently, I am a Software Engineer by trade, and I am working on 
 my master's degree in software Engineering. Full of energy, empathy, and coffee.
 
 
