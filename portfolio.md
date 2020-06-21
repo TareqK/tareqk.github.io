@@ -28,8 +28,7 @@ were a keystone in my career, and would come up again several times druing it,
 especially when it came to debugging problems in other frameworks such as Hibernate 
 or Jersey due to how similar the working concepts behind them were to my own work. 
 It was a great learning experience, and I did manage to ship a project based on it.
-The Project was never pushed to maven central(as it was an experiment), but can be 
-found [Here](https://github.com/TareqK/CRUDlets)
+The Project can be found [Here](https://github.com/TareqK/CRUDlets)
 
  
 ## OpenMyMed
