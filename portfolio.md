@@ -177,8 +177,9 @@ being taken to production.
 ## Volunteer Work
 
 - Im an organizing Member of the palestinian open source community. My duties include
-handling IT Operations and Custom software development for the group, Planning and 
-Notation, and giving webinars and creating e-learning content
+handling IT Operations and Software development for the group, Planning and 
+Notation, giving webinars and creating e-learning content, in addition to professional
+outreach.
 
 - Im a proponent of open education, and as such, have published several course notes
 of my own for general public (see the education section of this website)
