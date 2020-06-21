@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Projects 
+title: Portfolio
 subtitle: 
 ---
 
 ## CRUDLets
-Technologies : Java
+
+Technologies : Java(Servlet,JDBC)
+
 Synopsis : A Conventions-based REST api framework and ORM
 
 CRUDLets was my first foray into open-soruce work. I was working on
@@ -31,6 +33,7 @@ found [Here](https://github.com/TareqK/CRUDlets)
 
  
 ## OpenMyMed
+
 The OpenMyMed project came about during the onset of the Covid-19 Pandemic. Inspired by the 
 Open Source Covid-19 Supplies groups that popped up and the global Maker movement, I decided
 to participate in this by providing software-solutions to help streamline the processing
@@ -40,7 +43,9 @@ efficient, and to create community-local healthcare apps and services. The Organ
 Home can be found [Here](https://github.com/openmymed/)
 
 ### Access.MD
+
 Technologies : Java(Javalin,Hibernate), RE:DOM, React.JS, Android, Docker
+
 Synopsis : An ICPC-2e based EMR and Telemedicine Platform
 
 Access.MD started its life out as a covid-19 remote patient followup app, and grew overtime to 
@@ -65,7 +70,9 @@ both from a technology and an application domain point of view. The Project can 
 docs [Here](https://wiki.kisoft.me/doku.php?id=projects:access_md:start)
 
 ### Open-Fleetr
+
 Technologies : Java(CRUDLets), JQuery
+
 Synopsis : Ambulance Tracking and Dispatch system with reccomendation
 
 Open-Fleetr was my second open source contribution. It wasthe first software I fully specified and delivered. The application itself was a 
@@ -83,7 +90,9 @@ The project needs a re-write, but I want to persue it further, using more standa
 The Project can be found [Here](https://github.com/openmymed/open-fleetr)
 
 ## Redom-App
+
 Technologies : RE:DOM, ES6
+
 Synopsis : Micro SPA fraemwork
 
 redom-app was a weekend project that was an answer to this question I had : What is the smallest
@@ -98,7 +107,9 @@ was a fun project overall. I pushed this project to NPM for people to reuse. The
 can be found [Here](https://github.com/TareqK/redom-app)
 
 ## EasyBus
-Technologies : JAVA
+
+Technologies : Java
+
 Synopsis : In-Memory Event Bus with sync/async features
 
 Working in Domain-Driven Design, one of the key techniques that are utilized is the useage
@@ -121,7 +132,9 @@ and the events being looked for made sense. It was another fun weekend project, 
 it to maven central so that it can be reused. The Project Can be Found [Here](https://github.com/TareqK/easybus)
 
 ## JeSSE
+
 Technologies : Java(Servlet, Jackson)
+
 Synopsis : Implementation of the SSE standard in Java
 
 Often times, when I was working, I needed to use Websockets or Server-Sent Events. Usually,
@@ -142,7 +155,9 @@ on maven central and is useable by all. The Project Can Be Found [Here](https://
 
 
 ## Qahwagi
+
 Technologies : Java(Javalin,Hibernate), RE:DOM, Flutter, Docker
+
 Synopsis : Delivery App for coffee shops based on proximity
 
 Qahwagi Started off as a fun idea we had while we were sitting down. When corona 
@@ -153,7 +168,9 @@ and to order from those shops. The application is still work in progress, but is
 completion and will be available on app stores very soon.
 
 ## AbuTaxi
+
 Technologies : Java(Jersey,Jackson,Jongo), JQuery.
+
 Synopsis : Application to manage taxi office operations
  
 AbuTaxi was a client project for my family business. As we are in the fields
@@ -176,12 +193,12 @@ being taken to production.
 
 ## Volunteer Work
 
-- Im an organizing Member of the palestinian open source community. My duties include
+- I'm an organizing Member of the palestinian open source community. My duties include
 handling IT Operations and Software development for the group, Planning and 
 Notation, giving webinars and creating e-learning content, in addition to professional
 outreach.
 
-- Im a proponent of open education, and as such, have published several course notes
+- I'm a proponent of open education, and as such, have published several course notes
 of my own for general public (see the education section of this website)
 
 - I volunteer for arduino workshops with children whenver possible, and have given 
