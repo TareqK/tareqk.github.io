@@ -174,5 +174,16 @@ For that, we created a custom application that allows them to
 The application is still in its beta-stages, but is nearing completion and 
 being taken to production.
 
+## Volunteer Work
+
+- Im an organizing Member of the palestinian open source community. My duties include
+handling IT Operations and Custom software development for the group, Planning and 
+Notation, and giving webinars and creating e-learning content
+
+- Im a proponent of open education, and as such, have published several course notes
+of my own for general public (see the education section of this website)
+
+- I volunteer for arduino workshops with children whenver possible, and have given 
+them as a volunteer with the AM Qattan foundation.
 
 
