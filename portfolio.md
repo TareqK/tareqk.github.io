@@ -3,34 +3,40 @@ layout: page
 title: Portfolio
 subtitle: 
 ---
+## Javalin (Vue Support)
 
-## CRUDLets
+Technologies : Java+Kotlin(Javalin), Javascript(Vue)
 
-Technologies : Java(Servlet,JDBC)
+Synopsis : Improved and maintained the Vue plugin for the Javalin Library
 
-Synopsis : A Conventions-based REST api framework and ORM
+I Came across Javalin while searching for lighter frameworks to use for smaller projects and internal tools. Javalin is a simple, no-CDI, code-first config lite framework for rest api's in java and other JVM languages. Simple, Easy to learn, and performant, I enjoyed using Javalin for writing my rest apis. As part of the library, there was a plugin that added Server-Side Routing for vue-based components without needing a build toolchain for javascript, using the client-side template parsing and building from vue.. I added a dependency resolver & optimizer, making the pages served smaller, by sending only the components that will be rendered in the page,  reducing some pages from 20kb Gzipped to 8 kb Gzipped, meaning that the server-side routing had significantly reduced cost and better load times, and kept the sizes of individual pages constant even if the frontend of the application as a whole gets bigger. Additionally, I added support for Vue3, as the plugin only supported Vue3. More details on JavalinVue & It's use can be found [here](https://javalin.io/tutorials/simple-frontends-with-javalin-and-vue).
 
-CRUDLets was my first foray into open-soruce work. I was working on
-a dispatch system for ambulances which I would later transfer to the openmymed organization 
-to continue work on at a later time. For my own learning experience, and to get as
-much knowledge as possible, I decided to explore more deeply the cocnepts
-behind REST api frameworks and ORMs, and how they are build and behave.
+## EasyBus
 
-To do that, I worked with the 2 lowest level APIs I could still deal with at the
-time : JDBC, and the ServletApi. What I ended up doing was creating a very
-strict conventions-only REST api framework and ORM with a rudimentary query language and 
-role concept. the REST api framework  only allowed CRUD operations, and the name itself,
-was a combination of "CRUD" and "Servlet"(the name RESTLets, was unfortunately taken).  
+Technologies : Java
 
-I Learned much from that project. The skills I got from it, from using IO Streams, 
-Serialization/Deserialization, Writing DSLs and Fluent APIs, and Java Reflections, 
-were a keystone in my career, and would come up again several times druing it,
-especially when it came to debugging problems in other frameworks such as Hibernate 
-or Jersey due to how similar the working concepts behind them were to my own work. 
-It was a great learning experience, and I did manage to ship a project based on it.
-The Project can be found [Here](https://github.com/TareqK/CRUDlets)
+Synopsis : In-Memory Event Bus with sync/async features
 
- 
+Working in Domain-Driven Design, one of the key techniques that are utilized is the useage
+of domain events in order to do orchestreation and choreography. In a large and distributed
+environment, It makes sense to use a message queue/broker or event queue in order to satisfy this.
+However, in Domain-Driven Design practice, and by extention, in Microservices practice, its usually
+a good idea to get started with a Monolithic application and move your way into a distributed one.
+
+However, when doing so, I found no satisfactory in-memory event busses for Java. A Few candidates
+spring to mind, such as JBus, but it had its own efficiency problems(such as the lack of 
+caches for reflected methods and no scanning). So I decided to implement my own event bus, 
+based on annotations and classpath scanning for handlers and events. The project itself is 
+simple - annotate a few classes, and have a method with a specific signature ready, and then 
+just pass in the packages you want to search for, and your events will be handled, and I even 
+threw in some async handling for good measure. However, I used this project as a chance
+to polish up my knowledge of Java Reflections, and the Reflections library. I also took 
+it as a chance to learn more about writing compile-time annotation checkers, and even 
+included one in the library in order to verify that the annotations used are correct
+and the events being looked for made sense. It was another fun weekend project, and I pushed
+it to maven central so that it can be reused. The Project Can be Found [Here](https://github.com/TareqK/easybus)
+
+
 ## OpenMyMed
 
 The OpenMyMed project came about during the onset of the Covid-19 Pandemic. Inspired by the 
@@ -105,30 +111,31 @@ URLs and Middleware Capabilities, It mostly came down to common sense and practi
 was a fun project overall. I pushed this project to NPM for people to reuse. The Project
 can be found [Here](https://github.com/TareqK/redom-app)
 
-## EasyBus
+## CRUDLets
 
-Technologies : Java
+Technologies : Java(Servlet,JDBC)
 
-Synopsis : In-Memory Event Bus with sync/async features
+Synopsis : A Conventions-based REST api framework and ORM
 
-Working in Domain-Driven Design, one of the key techniques that are utilized is the useage
-of domain events in order to do orchestreation and choreography. In a large and distributed
-environment, It makes sense to use a message queue/broker or event queue in order to satisfy this.
-However, in Domain-Driven Design practice, and by extention, in Microservices practice, its usually
-a good idea to get started with a Monolithic application and move your way into a distributed one.
+CRUDLets was my first foray into open-soruce work. I was working on
+a dispatch system for ambulances which I would later transfer to the openmymed organization 
+to continue work on at a later time. For my own learning experience, and to get as
+much knowledge as possible, I decided to explore more deeply the cocnepts
+behind REST api frameworks and ORMs, and how they are build and behave.
 
-However, when doing so, I found no satisfactory in-memory event busses for Java. A Few candidates
-spring to mind, such as JBus, but it had its own efficiency problems(such as the lack of 
-caches for reflected methods and no scanning). So I decided to implement my own event bus, 
-based on annotations and classpath scanning for handlers and events. The project itself is 
-simple - annotate a few classes, and have a method with a specific signature ready, and then 
-just pass in the packages you want to search for, and your events will be handled, and I even 
-threw in some async handling for good measure. However, I used this project as a chance
-to polish up my knowledge of Java Reflections, and the Reflections library. I also took 
-it as a chance to learn more about writing compile-time annotation checkers, and even 
-included one in the library in order to verify that the annotations used are correct
-and the events being looked for made sense. It was another fun weekend project, and I pushed
-it to maven central so that it can be reused. The Project Can be Found [Here](https://github.com/TareqK/easybus)
+To do that, I worked with the 2 lowest level APIs I could still deal with at the
+time : JDBC, and the ServletApi. What I ended up doing was creating a very
+strict conventions-only REST api framework and ORM with a rudimentary query language and 
+role concept. the REST api framework  only allowed CRUD operations, and the name itself,
+was a combination of "CRUD" and "Servlet"(the name RESTLets, was unfortunately taken).  
+
+I Learned much from that project. The skills I got from it, from using IO Streams, 
+Serialization/Deserialization, Writing DSLs and Fluent APIs, and Java Reflections, 
+were a keystone in my career, and would come up again several times druing it,
+especially when it came to debugging problems in other frameworks such as Hibernate 
+or Jersey due to how similar the working concepts behind them were to my own work. 
+It was a great learning experience, and I did manage to ship a project based on it.
+The Project can be found [Here](https://github.com/TareqK/CRUDlets)
 
 ## JeSSE
 
