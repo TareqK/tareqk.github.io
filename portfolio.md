@@ -3,21 +3,6 @@ layout: page
 title: Portfolio
 subtitle: 
 ---
-## Javalin
-Technologies : Java, Kotlin
-
-Synopsis : Contributed to Vue.js and Templating plugin maintenance, features, and upgrades
-
-Javalin was a gem of a web framework I found some time ago - It is amazingly straightforward, works in almost any setup, has
-very little in terms of opinion, and is blazingly fast. In it, there were 2 areas that stood out to me : The Vue.js and Templating engine plugins. They allowed the use of Javalin for  server-side routing with state injection, making it easy to create web applications and reporting tools without the hassle of an entire front-end build toolchain. I Created and Contributed a dependency optimizer for the Vue.js plugin, allowing pages to only import the components they needed, Upgraded the Vue.js plugin from working with Vue2 to Working with both Vue3 and Vue2, and added some features related to state injection for the Template engine one. These technologies were key in my success at my job as a DevOps engineer, allowing me to build tools fast and with a high ROI, with a decent user experience for my users(which are usually Devs and QA engineers). The Project can be found [Here](https://github.com/tipsy/javalin)
-
-## Javalin Mithril
-Technologies : Java
-
-Synopsis : Created a Plugin for Javalin that uses mithril.js to create Multi-page applications.
-
-The Idea for this plugin started off as a challenge : Could I write some form of a package and import system? Initially, I wanted to apply this to RE:DOM, as it was also a simple Hyperscript framework. However, After discussing with the maintainer of javalin, he adivsed me to redirect my work and do this for mithril.js, which was a better known and used Web framework. What resulted was a plugin that allowed for server-side routing and state injection, while having a strong focus on class-based design for fronted frameworks. The name-spaced component system I built in this plugin allows for significantly larger projects compared to JavalinVue, and the Import system allows for very small and optimized web pages to be served. The maintainers of Javalin have accepted this project into their org, and the project can be found [Here](https://github.com/javalin/javalinmithril) and is available on Maven Central.
-
 
 ## EasyBus
 
@@ -41,10 +26,26 @@ threw in some async handling for good measure. However, I used this project as a
 to polish up my knowledge of Java Reflections, and the Reflections library. I also took 
 it as a chance to learn more about writing compile-time annotation checkers, and even 
 included one in the library in order to verify that the annotations used are correct
-and the events being looked for made sense. Additionally, the bus can be backed by multiple implementations, including
-a mongodb-backed bus and a rabbitmq-backed one. The Project Can be Found [Here](https://github.com/TareqK/easybus)
+and the events being looked for made sense. Additionally, the bus can be backed by user-defined implementations, and includes implementations for a mongodb-backed bus and a rabbitmq-backed one. The Project Can be Found [Here](https://github.com/TareqK/easybus)
+=======
+## Javalin (Vue Support)
 
- 
+Technologies : Java+Kotlin(Javalin), Javascript(Vue)
+
+Synopsis : Improved and maintained the Vue plugin for the Javalin Library
+
+I Came across Javalin while searching for lighter frameworks to use for smaller projects and internal tools. Javalin is a simple, no-CDI, code-first config lite framework for rest api's in java and other JVM languages. Simple, Easy to learn, and performant, I enjoyed using Javalin for writing my rest apis. As part of the library, there was a plugin that added Server-Side Routing for vue-based components without needing a build toolchain for javascript, using the client-side template parsing and building from vue.. I added a dependency resolver & optimizer, making the pages served smaller, by sending only the components that will be rendered in the page,  reducing some pages from 20kb Gzipped to 8 kb Gzipped, meaning that the server-side routing had significantly reduced cost and imporved load times, and kept the sizes of individual pages constant even if the frontend of the application as a whole gets bigger. Additionally, I added support for Vue3, as the plugin only supported Vue2. These technologies were key in my success at my job as a DevOps engineer, allowing me to build tools fast and with a high ROI, with a decent user experience for my users(which are usually Devs and QA engineers). The Project can be found [Here](https://github.com/tipsy/javalin). More details on JavalinVue & It's use can be found [here](https://javalin.io/tutorials/simple-frontends-with-javalin-and-vue).
+
+
+## Javalin Mithril
+
+Technologies : Java
+
+Synopsis : Created a Plugin for Javalin that uses mithril.js to create Multi-page applications.
+
+The Idea for this plugin started off as a challenge : Could I write some form of a package and import system? Initially, I wanted to apply this to RE:DOM, as it was also a simple Hyperscript framework. However, After discussing with the maintainer of javalin, he adivsed me to redirect my work and do this for mithril.js, which was a better known and used Web framework. What resulted was a plugin that allowed for server-side routing and state injection, while having a strong focus on class-based design for fronted frameworks. The name-spaced component system I built in this plugin allows for significantly larger projects compared to JavalinVue, and the Import system allows for very small and optimized web pages to be served. The maintainers of Javalin have accepted this project into their org, and the project can be found [Here](https://github.com/javalin/javalinmithril) and is available on Maven Central.
+
+
 ## OpenMyMed
 
 The OpenMyMed project came about during the onset of the Covid-19 Pandemic. Inspired by the 
@@ -118,7 +119,6 @@ and weekend projects come to mind that need a simple UI. While it does have opin
 URLs and Middleware Capabilities, It mostly came down to common sense and practice, and 
 was a fun project overall. I pushed this project to NPM for people to reuse. The Project
 can be found [Here](https://github.com/TareqK/redom-app)
-
 
 ## JeSSE
 
