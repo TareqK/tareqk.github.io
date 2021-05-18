@@ -27,7 +27,7 @@ to polish up my knowledge of Java Reflections, and the Reflections library. I al
 it as a chance to learn more about writing compile-time annotation checkers, and even 
 included one in the library in order to verify that the annotations used are correct
 and the events being looked for made sense. Additionally, the bus can be backed by user-defined implementations, and includes implementations for a mongodb-backed bus and a rabbitmq-backed one. The Project Can be Found [Here](https://github.com/TareqK/easybus)
-=======
+
 ## Javalin (Vue Support)
 
 Technologies : Java+Kotlin(Javalin), Javascript(Vue)
