@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Education & Resources
+title: Learning Resources
 subtitle:
 ---
 # Course Notes

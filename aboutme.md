@@ -3,7 +3,9 @@ layout: page
 title: About me
 subtitle: The Fun and the Real
 ---
-![portrait](./img/portrait.jpeg){:height="200px" :style="margin: 0 auto; display: block;"}
+<div class="w-100">
+    <img src="/img/portrait.jpeg" class="center-block img-circle" height="150px"/>
+</div>
 
 My Name is Tareq Kirresh. Im a simple man trying to find my way in the universe.
 I've always been a craftsman at heart. Im very passionate about technology, 
