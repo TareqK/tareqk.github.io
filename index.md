@@ -36,7 +36,7 @@ transformation, process automation, QA Automation, and CI/CD.
 
 ## July 2017-September 2019
 ### Bisan Enterprise Solutions
-##### Technical Researcher & Systems Engineer
+#### Technical Researcher & Systems Engineer
 
 Responsible for testing and deploying new solutions for both product operations,development,
 and QA, along with implementing hardware interfaces for the product line.
