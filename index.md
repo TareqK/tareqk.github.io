@@ -40,9 +40,10 @@ transformation, process automation, QA Automation, and CI/CD.
 
 Responsible for testing and deploying new solutions for both product operations,development,
 and QA, along with implementing hardware interfaces for the product line.
- September 2016-March 2017
-Steam Solutions for Education
-Robotics and Tinkering Instructor
+
+## September 2016-March 2017
+### Steam Solutions for Education
+#### Robotics and Tinkering Instructor
 
 # What Can I Do?
 
