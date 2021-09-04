@@ -45,6 +45,8 @@ and QA, along with implementing hardware interfaces for the product line.
 ### Steam Solutions for Education
 #### Robotics and Tinkering Instructor
 
+Teaching children ages 8-14 working with lego kits, arduino, and critical thinking through tinkering and making
+
 # What Can I Do?
 
 * Programming: Excellent in Java (JeSSE, JSF/Primefaces, Hibernate, JAX-RS, JAXB , Web-
