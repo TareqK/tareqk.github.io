@@ -32,6 +32,7 @@ navbar-links:
 # then specify the following parameter
 # title-img: /path/to/image
 logo: /img/logo.png
+default-share-image: /img/logo.png
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
@@ -179,7 +180,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: true
+      show-avatar: false
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
