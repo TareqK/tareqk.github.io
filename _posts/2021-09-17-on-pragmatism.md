@@ -10,6 +10,7 @@ published: false
 
 Of the term pargmatism in software engineering
 
+test
 # How Pragmatism Helped Shape My Practice
 
 # Pragmatism and Software Delivery
