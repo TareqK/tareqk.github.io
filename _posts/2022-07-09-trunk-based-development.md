@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Feature Branches and Trunk Based Development
-subtitle: Or, How I learned to stopped worrying and embraced the chaos
+subtitle: Or, How I learned to stopped worrying and embraced the feature flag
+share-img: /img/trunk-based-development.png
 date: 2022-07-09
 published: true
 ---
@@ -21,6 +22,11 @@ Additionally, as your work is on mainline, and everyone is pulling in mainline t
 
 Trunk Based development does not mean you have *no* branching, it just means that branches are smaller, oriented to slices of features rather than whole features, and exist to ensure quality reviews and checks, rather than a way of siloing off the development of different features. Everything is integrated as it is being written, and feedback is much, much quicker(we all had that *one* review we kept pushing to the end of the week because its 300 files and 1500 LOC, and just end up giving a hap-hazard "ok" to)
 
+
 The details on *how* to do TBD are over [here](https://trunkbaseddevelopment.com/), but the general gist is to keep everything going in one straight line rather than a million independent lines that meet again.
+
+<div class="w-100">
+    <img src="/img/trunk-based-development.png" class="center-block" height="250px"/>
+</div>
 
 This is just us applying KISS(Keep it sweet and simple) to our code process - rather than having a procedure for every scenario, we treat everything the same and move in one direction all the time - into trunk, and forward.
