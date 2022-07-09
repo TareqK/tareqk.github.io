@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feature Branches and Trunk Based Development
-subtitle: Or, How I learned to stopped worrying and embraced the feature flag
+subtitle: Or, How I learned to stop worrying and embrace the feature flag
 share-img: /img/trunk-based-development.png
 date: 2022-07-09
 published: true
