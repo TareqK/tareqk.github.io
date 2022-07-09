@@ -26,7 +26,8 @@ Trunk Based development does not mean you have *no* branching, it just means tha
 The details on *how* to do TBD are over [here](https://trunkbaseddevelopment.com/), but the general gist is to keep everything going in one straight line rather than a million independent lines that meet again.
 
 <div class="w-100">
-    <img src="/img/trunk-based-development.png" class="center-block" height="250px"/>
+    <img src="/img/trunk-based-development.png" class="center-block" height="300px"/>
+    <label class="center-block text-center">TBD with short branches</label>
 </div>
 
 This is just us applying KISS(Keep it sweet and simple) to our code process - rather than having a procedure for every scenario, we treat everything the same and move in one direction all the time - into trunk, and forward.
