@@ -16,10 +16,10 @@ my master's degree in software Engineering. Full of energy, empathy, and coffee.
 
 
 I always enjoyed tinkering around, 
-dissasembling and putting stuff back together, ever since I was a kid. My 
+disassembling and putting stuff back together, ever since I was a kid. My 
 earliest memories were of me in the repair shop at my father's company - going
 about the job of polishing up Headsets before they go out to customers, because
-we dont ship things half done, then moving up to repair when as soon as they 
+we don't ship things half done, then moving up to repair when as soon as they 
 would let me hold a soldering iron. Ive always had pride in my work and
 my life
 
@@ -27,10 +27,11 @@ Im also a big fan of culinary arts, specifically, in the areas of fermentation,
 baking, and preservation - this plays nicely with my love of tech, as I find
 myself often using my tinkering skills to create new tools to help me do those
 things. Its always fun to spend a weekend in the kitchen, just going at it with
-new recipies, cures, and techniques. 
+new recipes, cures, and techniques. 
 
 Im a big open source advocate. I am part of the local [Palestinian Open Source
 Community](https://palosc.org), and handle organization and professional outreach
-for the group. 
+for the group, In addition to holding the post of director general for the [Palestinian IT Society](https://pits.ps),
+an industry group of individuals that try to showcase the best of and improve the IT industry in palestine.
 
 

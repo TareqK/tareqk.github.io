@@ -11,7 +11,17 @@ Fields of Logistics, and Process Automation. Avid open source contributor and ad
 
 # Where have I Been?
 
-## September 2021 - Current
+## May 2022 - Current
+### Foothill Technology Solutions
+#### Basecamp Director
+
+The Foothill Basecamp is an innovative unit within foothill that focuses on building up product teams in early
+stage startups. Teams in Basecamp are live-in product teams for our clients, where they do the entire process of 
+product design, implementation, and validation in collaboration with our business partners.
+
+As Director of this program, responsibilities include engineering management, product management, client communications, business consultancy, and mentorship of support teams.
+
+## September 2021 - May 2022
 ### CEPRES GmbH
 #### DevOps Tech Lead
 
@@ -76,4 +86,4 @@ and PlantUML for use in proffesional and academic contexts
 #### Class of 2014, GCSE Branch
 
 # Contact Details
-Please email me at [kirreshtareq@gmail.com](mailto:kirreshtareq@gmail.com) for any questions or inqueries
+Please email me at [kirreshtareq@gmail.com](mailto:kirreshtareq@gmail.com) for any questions or inquiries
