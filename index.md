@@ -21,6 +21,14 @@ product design, implementation, and validation in collaboration with our busines
 
 As Director of this program, responsibilities include engineering management, product management, client communications, business consultancy, and mentorship of support teams.
 
+## May 2022 - Current
+### Equiptal
+#### VP Product
+
+Carrying out all duties of product and engineering management, product integrations, business modeling, 
+and support.
+
+
 ## September 2021 - May 2022
 ### CEPRES GmbH
 #### DevOps Tech Lead
@@ -33,8 +41,8 @@ Responsibilities Include Leading and Growing the DevOps Team Into Maturity, Proc
 #### Senior DevOps Engineer
 
 Process Enhancements, Building and Maintaining Internal Tooling, Maintenance of CI/CT/CD
-pipelines, Research into technologies for the product stack, Infrastructure Planning and Im-
-plementation, Code and Infrastructure Metrics, and providing general support for the Product
+pipelines, Research into technologies for the product stack, Infrastructure Planning and Implementation,
+Code and Infrastructure Metrics, and providing general support for the Product
 Delivery Team.
 
 ## September 2019 - September 2020

@@ -4,6 +4,28 @@ title: Projects & Contributions
 subtitle: 
 ---
 
+## j2htmx
+
+Technologies : Java
+
+Synopsis : htmx extensions for the j2html library
+
+I learned of [htmx](https://htmx.org) and [hyperscript](https://hyperscript.org) while browsing literature on the origins of REST 
+API design, and instantly saw the value in the use of HATEOAS(Hypermedia As The Engine Of Application State) in modern, distributed 
+applications. I Had also previously learned of and used [j2html](https://j2html.com/), a typed HTML generator based on java.
+I Created this extension to combine these 2 libraries together in order to be able to create fullstack web 
+applications using using j2html, javalin, and htmx. More on this library can be found [here](https://github.com/TareqK/j2htmx)
+
+
+## Javalin
+
+Technologies : Java+Kotlin(Javalin), Javascript(Vue)
+
+Synopsis : Improved and maintained the Vue plugin for the Javalin Library
+
+I Came across Javalin while searching for lighter frameworks to use for smaller projects and internal tools. Javalin is a simple, no-CDI, code-first config lite framework for rest api's in java and other JVM languages. Simple, Easy to learn, and performant, I enjoyed using Javalin for writing my rest apis. As part of the library, there was a plugin that added Server-Side Routing for vue-based components without needing a build toolchain for javascript, using the client-side template parsing and building from vue.. I added a dependency resolver & optimizer, making the pages served smaller, by sending only the components that will be rendered in the page,  reducing some pages from 20kb Gzipped to 8 kb Gzipped, meaning that the server-side routing had significantly reduced cost and improved load times, and kept the sizes of individual pages constant even if the frontend of the application as a whole gets bigger. Additionally, I added support for Vue3, as the plugin only supported Vue2. These technologies were key in my success at my job as a DevOps engineer, allowing me to build tools fast and with a high ROI, with a decent user experience for my users(which are usually Devs and QA engineers). The Project can be found [Here](https://github.com/tipsy/javalin). More details on JavalinVue & It's use can be found [here](https://javalin.io/tutorials/simple-frontends-with-javalin-and-vue).
+
+
 ## EasyBus
 
 Technologies : Java
@@ -11,9 +33,9 @@ Technologies : Java
 Synopsis : Extensible Event Bus with Multiple Backing Implementations
 
 Working in Domain-Driven Design, one of the key techniques that are utilized is the useage
-of domain events in order to do orchestreation and choreography. In a large and distributed
+of domain events in order to do orchestration and choreography. In a large and distributed
 environment, It makes sense to use a message queue/broker or event queue in order to satisfy this.
-However, in Domain-Driven Design practice, and by extention, in Microservices practice, its usually
+However, in Domain-Driven Design practice, and by extension, in Microservices practice, its usually
 a good idea to get started with a Monolithic application and move your way into a distributed one.
 
 However, when doing so, I found no satisfactory in-memory event busses for Java. A Few candidates
@@ -28,14 +50,20 @@ it as a chance to learn more about writing compile-time annotation checkers, and
 included one in the library in order to verify that the annotations used are correct
 and the events being looked for made sense. Additionally, the bus can be backed by user-defined implementations, and includes implementations for a mongodb-backed bus and a rabbitmq-backed one. The Project Can be Found [Here](https://github.com/TareqK/easybus)
 
-## Javalin (Vue Support)
 
-Technologies : Java+Kotlin(Javalin), Javascript(Vue)
+## Reveal-Control
 
-Synopsis : Improved and maintained the Vue plugin for the Javalin Library
+Technologies : Java, Javascript
 
-I Came across Javalin while searching for lighter frameworks to use for smaller projects and internal tools. Javalin is a simple, no-CDI, code-first config lite framework for rest api's in java and other JVM languages. Simple, Easy to learn, and performant, I enjoyed using Javalin for writing my rest apis. As part of the library, there was a plugin that added Server-Side Routing for vue-based components without needing a build toolchain for javascript, using the client-side template parsing and building from vue.. I added a dependency resolver & optimizer, making the pages served smaller, by sending only the components that will be rendered in the page,  reducing some pages from 20kb Gzipped to 8 kb Gzipped, meaning that the server-side routing had significantly reduced cost and imporved load times, and kept the sizes of individual pages constant even if the frontend of the application as a whole gets bigger. Additionally, I added support for Vue3, as the plugin only supported Vue2. These technologies were key in my success at my job as a DevOps engineer, allowing me to build tools fast and with a high ROI, with a decent user experience for my users(which are usually Devs and QA engineers). The Project can be found [Here](https://github.com/tipsy/javalin). More details on JavalinVue & It's use can be found [here](https://javalin.io/tutorials/simple-frontends-with-javalin-and-vue).
+Synopsis : Plugin for [reveal.js](https://revealjs.com/) allowing presentation control from a secondary device
 
+I have always enjoyed using the "everything-as-code" approach to any problem that can be solved by it, as to me, 
+it greatly reduces cognitive load and tool switching. [Reveal.js](https://revealjs.com/) falls into this category of tooling, which allowed me
+to also create presentations as code. 
+
+However, reveal.js lacked in remote control functionality, which is why I wrote Reveal-Control, a server + frontend plugin
+that allows one to control a reveal.js slideshow from a secondary device, including a mobile one, allowing a smoother
+presentation experience for both the presenter and audiences in person. More about this project [Here](https://github.com/TareqK/reveal-control)
 
 ## Javalin Mithril
 
@@ -43,7 +71,7 @@ Technologies : Java
 
 Synopsis : Created a Plugin for Javalin that uses mithril.js to create Multi-page applications.
 
-The Idea for this plugin started off as a challenge : Could I write some form of a package and import system? Initially, I wanted to apply this to RE:DOM, as it was also a simple Hyperscript framework. However, After discussing with the maintainer of javalin, he adivsed me to redirect my work and do this for mithril.js, which was a better known and used Web framework. What resulted was a plugin that allowed for server-side routing and state injection, while having a strong focus on class-based design for fronted frameworks. The name-spaced component system I built in this plugin allows for significantly larger projects compared to JavalinVue, and the Import system allows for very small and optimized web pages to be served. The maintainers of Javalin have accepted this project into their org, and the project can be found [Here](https://github.com/javalin/javalinmithril) and is available on Maven Central.
+The Idea for this plugin started off as a challenge : Could I write some form of a package and import system? Initially, I wanted to apply this to RE:DOM, as it was also a simple javascript framework. However, After discussing with the maintainer of javalin, he advised me to redirect my work and do this for mithril.js, which was a better known and used Web framework. What resulted was a plugin that allowed for server-side routing and state injection, while having a strong focus on class-based design for fronted frameworks. The name-spaced component system I built in this plugin allows for significantly larger projects compared to JavalinVue, and the Import system allows for very small and optimized web pages to be served. The maintainers of Javalin have accepted this project into their org, and the project can be found [Here](https://github.com/javalin/javalinmithril) and is available on Maven Central.
 
 
 ## OpenMyMed
