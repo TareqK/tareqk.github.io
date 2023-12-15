@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="background.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72871773"
+     inkscape:cx="332.09018"
+     inkscape:cy="626.44283"
+     inkscape:window-width="1680"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#e7fcfe;fill-opacity:1;stroke:#a1f6ff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.09372298,297.24248 c -0.26012364,-1.92239 -0.56464036,-174.9725 -0.32053755,-182.15535 l 0.19361953,-5.6974 4.10454394,-2.79064 C 10.239557,102.4054 20.038981,96.977117 24.84474,95.091915 c 2.34872,-0.921364 6.224495,-2.194988 8.612834,-2.830267 3.955178,-1.052069 4.979779,-1.154992 11.489253,-1.154209 6.6553,8.69e-4 7.398876,0.07981 10.811854,1.14932 4.203286,1.317128 9.395668,4.006077 12.944893,6.703704 7.012092,5.329637 12.547178,12.206447 19.41978,24.127207 6.571927,11.39921 9.424851,15.68609 13.814766,20.75837 11.26182,13.0123 24.28462,20.41769 39.39914,22.40423 5.52423,0.72605 19.06071,0.27199 24.55573,-0.82368 13.62946,-2.71766 23.85537,-8.92398 31.90871,-19.36604 3.056,-3.96247 4.7247,-6.90114 6.98145,-12.29468 2.19774,-5.25251 3.70163,-10.3992 4.79126,-16.39699 l 0.84877,-4.67192 -0.12006,92.60758 c -0.0661,50.93413 -0.18873,92.686 -0.27265,92.78191 -0.084,0.0959 -47.31083,0.26458 -104.94865,0.37483 L 0.28577983,298.66179 Z"
+       id="path2859"
+       inkscape:export-filename="/home/tareq/Code/tareqk.github.io/img/background.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

@@ -12,21 +12,22 @@ Fields of Logistics, and Process Automation. Avid open source contributor and ad
 # Where have I Been?
 
 ## May 2022 - Current
+### Equiptal
+#### CTO & CO-Founder
+
+Carrying out all duties of product and engineering management, product integrations, business modeling, 
+and support for [equiptal](https://equiptal.net){:target="_blank"} 
+
+
+## May 2022 - July 2023
 ### Foothill Technology Solutions
-#### Basecamp Director
+#### Basecamp Director(Consulting)
 
 The Foothill Basecamp is an innovative unit within foothill that focuses on building up product teams in early
 stage startups. Teams in Basecamp are live-in product teams for our clients, where they do the entire process of 
 product design, implementation, and validation in collaboration with our business partners.
 
 As Director of this program, responsibilities include engineering management, product management, client communications, business consultancy, and mentorship of support teams.
-
-## May 2022 - Current
-### Equiptal
-#### VP Product
-
-Carrying out all duties of product and engineering management, product integrations, business modeling, 
-and support.
 
 
 ## September 2021 - May 2022
@@ -84,8 +85,8 @@ and PlantUML for use in proffesional and academic contexts
 
 # Education
 
-## Birzeit University, 2019 - Current
-#### MsC, Software Engineering.
+## Birzeit University, 2019 - 2023
+#### MsC, Software Engineering with Distinction.
 
 ## Birzeit University, 2014-2019
 #### BsC in Computer Science.
