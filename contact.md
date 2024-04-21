@@ -36,7 +36,7 @@ layout: minimal
             </div>  
              <div class="row mt-3">
                 <div class="col-12 text-center">
-                <a target="_blank" href="mailto:kirreshtareq@gmail.com">Save</a>
+                <a target="_blank" href="/vcard.vcf">Save</a>
                 </div>
             </div>
         </div>
