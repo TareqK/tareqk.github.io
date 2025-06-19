@@ -67,7 +67,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "kirreshtareq@gmail.com"
+  email: "tareq@kisoft.me"
 #  facebook: 
   github: tareqK
 #  twitter: daattali
@@ -109,10 +109,9 @@ share-links-active:
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
 
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
+matomo:
+  site_id: "4"
+  uri: "um.kisoft.me"
 
 # --- Comments --- #
 

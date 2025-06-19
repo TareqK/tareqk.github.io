@@ -1,17 +1,27 @@
 ---
 layout: page
 title: Tareq Kirresh
-subtitle: Software Engineer
+subtitle: Digital Transformation Consultant
 use-site-title: false
 ---
 # Who Am I?
-A Motivated, Pragmatic, and Experienced Software Engineer with an eye for quality and technical
+A Motivated, Pragmatic, and Experienced Digital Transformation Consultant with an eye for quality and technical
 excellence. Always pushing boundaries and looking for challenges. Extremely interested in the
 Fields of Logistics, and Process Automation. Avid open source contributor and advocate.
 
 # Where have I Been?
 
-## May 2022 - Current
+## December 2024 - Now
+### Kisoft
+#### Owner & Digital Transformation Consultant
+
+Owner of [Kisoft](https://kisoft.me){:target="_blank"}, an IT-as-a-Service provider and consultancy firm. Respnsible for all aspects of management
+and tech, and all related business functions.
+
+At Kisoft, I handled sales, marketing, bookeeping, project leadership, and partnerships/vendor relationships, in addition to leading a team of consultants in 
+different tech spaces to drive results for clients across the GCC.
+
+## May 2022 - March 2025
 ### Equiptal
 #### CTO & CO-Founder
 
@@ -95,4 +105,4 @@ and PlantUML for use in proffesional and academic contexts
 #### Class of 2014, GCSE Branch
 
 # Contact Details
-Please email me at [kirreshtareq@gmail.com](mailto:kirreshtareq@gmail.com) for any questions or inquiries
+Please email me at [tareq@kisoft.me](mailto:tareq@kisoft.me) for any questions or inquiries
